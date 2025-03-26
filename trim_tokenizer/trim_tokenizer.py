@@ -7,7 +7,6 @@ import torch
 from fire import Fire
 from transformers import AutoModel, AutoTokenizer
 
-# from tokenizer_changer import TokenizerChanger
 from .tokenizer_changer import TokenizerChanger
 
 # Below is the list of functions to filter out the unused tokens.
